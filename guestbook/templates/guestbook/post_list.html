@@ -6,9 +6,7 @@
             <div class="date">
                 {{ post.created_date }}
             </div>
-            {% if user.is_authenticated %}
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-            {% endif %}
             <p>{{ post.text|linebreaks }}</p>
         </div>
     {% endfor %}
