@@ -4,6 +4,7 @@ from django.shortcuts import redirect
 from .models import Post
 from .forms import PostForm
 
+
 def post_list(request):
     posts = Post.objects.filter(created_date__lte=timezone.now()).order_by('created_date')
     return render(request, 'guestbook/post_list.html', {'posts': posts})
