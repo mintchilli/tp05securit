@@ -15,7 +15,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 .date {
@@ -49,6 +49,7 @@ h1, h2, h3, h4 {
 
 .logout {
     color: #ffffff;
+    font-family: 'Poiret One', cursive;
     font-size: 26pt;
     float: right;
     webkit-appearance: button;
@@ -56,4 +57,7 @@ h1, h2, h3, h4 {
     appearance: button;
     padding-top: 17px;
     text-decoration: none;
+}
+.comment {
+    margin: 20px 0px 20px 20px;
 }
